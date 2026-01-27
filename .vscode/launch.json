@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "app no args",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/app",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        },{
+            "name": "app",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/workspaces/TD/TEMPLATE/app",
+            "args": ["1","2"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        }
+
+    ]
+}
