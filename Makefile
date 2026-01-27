@@ -1,17 +1,18 @@
-# Répertoire template
+# ref directory template
 TEMPLATE_DIR := TEMPLATE
 
-# Par défaut, empêcher make de croire que TDxxxx est un fichier
 .PHONY: $(shell ls)
 
-# Règle générique : make NOM_DU_TD
+# generic rule : make TDYYYYMMDD
 %:
 	@if [ -d "$@" ]; then \
-		echo "❌ Le dossier '$@' existe déjà"; \
+		echo "❌ The directory '$@' already exists"; \
 		exit 1; \
 	fi
-	@echo "📁 Création du TD '$@'"
+	@echo "📁 Creating '$@' from '$(TEMPLATE_DIR)' " 
 	@mkdir "$@"
 	@cp -r $(TEMPLATE_DIR)/* "$@"/
+	@sed -i.bak 's/^.*put.*$$/\tput("$@");/' "$@/td.c"
+	@rm -f "$@/td.c.bak"
 	@git add "$@"
-	@echo "✅ TD '$@' créé et ajouté à git"
+	@echo "✅ TD '$@' created and added to git"
