@@ -1,0 +1,12 @@
+{
+	"image": "314rch/info1:v14",
+	"features": {},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"GitHub.copilot"
+			]
+		}
+	}
+}
