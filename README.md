@@ -34,3 +34,10 @@ Mode opératoire : sur papier uniquement ; 2 périodes de révisions sont prévu
 - Github
 - Visual Studio Code
 
+# Lectures
+- 2026-02-23 : §19, 20, 21 (structures, champs de bit, unions)
+- 2026-02-27 : §29 (fichiers)
+- 2026-03-13 : §27 (allocation mémoire)
+- 2026-03-23 : §13 (préprocesseur)
+- 2026-04-17 : §37 (compilation séparée)
+- 2026-04-20 : §31, 32 (listes)
