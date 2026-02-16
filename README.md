@@ -3,7 +3,7 @@
 ## Dates à retenir
 
 ### Tests écrits (2 périodes) :
-- TE1 : 2026-04-13
+- TE1 : 2026-03-30
 - TE2 : 2026-05-18
 
 Mode opératoire : sur ordinateur ; vous **devez** amener votre ordinateur personnel ; 2 périodes de révisions sont prévues avant chaque test.
@@ -11,7 +11,7 @@ Mode opératoire : sur ordinateur ; vous **devez** amener votre ordinateur perso
 
 ### Labos tests (2 périodes) :
 - Labo Test 1 : 2026-04-22
-- Labo Test 2 : 2026-05-27
+- Labo Test 2 : 2026-05-29
 
 Mode opératoire : sur ordinateur ; vous **devez** amener votre ordinateur personnel ; 2 périodes de révisions sont prévues avant chaque labo test.
 
