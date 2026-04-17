@@ -1,13 +1,35 @@
 {
+    "name": "TD light",
 	"image": "314rch/info1:v14",
 	"features": {},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-vscode.cpptools-extension-pack",
-				"GitHub.copilot"
-			]
-		}
-	},
+  "customizations": {
+    "vscode": {
+      "extensions": [],
+      "settings": {
+        "editor.inlineSuggest.enabled": false,
+        "editor.quickSuggestions": {
+          "other": false,
+          "comments": false,
+          "strings": false
+        },
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.parameterHints.enabled": false,
+        "editor.tabCompletion": "off",
+        "editor.wordBasedSuggestions": "off",
+        "editor.acceptSuggestionOnEnter": "off",
+        "editor.snippetSuggestions": "none",
+        "github.copilot.enable": {
+          "*": false,
+          "plaintext": false,
+          "markdown": false,
+          "scminput": false
+        },
+        "chat.commandCenter.enabled": false,
+        "workbench.settings.enableNaturalLanguageSearch": false,
+        "extensions.ignoreRecommendations": true,
+        "security.workspace.trust.enabled": true
+      }
+    }
+  },
     "postCreateCommand": "cp .devcontainer/.bashrc ~/.bashrc"
 }
