@@ -1,9 +1,9 @@
 #pragma once
 
-
 #include "vector2D.h"
 
-typedef struct {
+typedef struct
+{
 
     Vector2D v1;
     Vector2D v2;

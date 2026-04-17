@@ -7,17 +7,16 @@ int main(int argc, const char *argv[])
     Vector2D v;
     Vector2D r;
 
-    u=vector_init(3., 4.);
-    v=vector_init(1., 2.);
+    u = vector_init(3., 4.);
+    v = vector_init(1., 2.);
     vector_display(u);
     vector_display(v);
-    r=vector_add(u,v);
+    r = vector_add(u, v);
     vector_display(r);
 
-
     Segment2D s;
-    s=segment_init(u,v);
+    s = segment_init(u, v);
     segment_display(s);
-    
+
     return 0;
 }
