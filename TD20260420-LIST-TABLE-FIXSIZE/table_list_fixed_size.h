@@ -14,7 +14,9 @@ typedef struct {
 
 
  // prototypes
-list init(void);
-bool is_empty(const list l);
-bool is_full(const list l);
-int insert(list *l, const size_t pos, const element e);
+list list_init(void);
+bool list_is_empty(const list l);
+bool list_is_full(const list l);
+int list_insert_elem(list *l, const size_t pos, const element e);
+int list_remove_elem(list *l, const size_t pos);
+int list_get_elem(list l, const size_t pos, const element *e);
