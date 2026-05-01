@@ -7,6 +7,7 @@ list list_init(void)
     list l;
     l.count = 0;
     l.size = 0;
+    l.t = NULL;
     return l;
 }
 
@@ -29,7 +30,17 @@ int list_insert_elem(list *l, const size_t pos, const element e)
     {
         element *tmp = NULL;
         tmp = (element *)realloc(l->t, sizeof(element) * (l->size + GROWING_SIZE));
-        // merci de terminer pour la prochaine fois
+
+        if (NULL == tmp)
+        {
+            printf("Error, list is full");
+            return -1;
+        }
+        else
+        {
+            l->size += GROWING_SIZE;
+            l->t = tmp;
+        }
     }
 
     // check if pos coherent
