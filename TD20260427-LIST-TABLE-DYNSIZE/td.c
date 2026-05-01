@@ -38,5 +38,7 @@ int main(int argc, const char *argv[])
     printf("---\n");
     list_get_elem(l, 2, &e);
     display_element(e);
+
+    list_free(&l);
     return 0;
 }

@@ -21,3 +21,4 @@ bool list_is_full(const list l);
 int list_insert_elem(list *l, const size_t pos, const element e);
 int list_remove_elem(list *l, const size_t pos);
 int list_get_elem(list l, const size_t pos, const element *e);
+void list_free(list *l);

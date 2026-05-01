@@ -11,6 +11,13 @@ list list_init(void)
     return l;
 }
 
+void list_free(list *l) {
+    if(l->t)
+        free(l->t);
+    l->count = 0;
+    l->size = 0;
+    l->t = NULL;
+}
 bool list_is_empty(const list l)
 {
     return l.count == 0;
