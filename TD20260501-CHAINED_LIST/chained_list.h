@@ -3,13 +3,7 @@
 #include <stdio.h>
 #include "element.h"
 
-typedef struct node {
-
-    struct node *next;
-    struct node *prev;
-    element payload;
-
-} node;
+#include "node.h"
 
 typedef struct {
 
