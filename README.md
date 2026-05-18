@@ -4,17 +4,19 @@
 
 ### Tests écrits (2 périodes) :
 - TE1 : 2026-03-30
-- TE2 : 2026-05-18
+- TE2 : 2026-05-18 (déplacé en C41)
 
 Mode opératoire : sur ordinateur ; vous **devez** amener votre ordinateur personnel ; 2 périodes de révisions sont prévues avant chaque test.
 
 
 ### Labos tests (2 périodes) :
 - Labo Test 1 : 2026-04-22
-- Labo Test 2 : 2026-05-29
+- Labo Test 2 : 2026-05-29 (déplacé en C33)
 
 Mode opératoire : sur ordinateur ; vous **devez** amener votre ordinateur personnel ; 2 périodes de révisions sont prévues avant chaque labo test.
 
+### Cours de rattrapage 
+- 2026-05-21 : 16:15 - 18:15 en C33
 
 ### Examen de 100'
 - date non encore disponible
