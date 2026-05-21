@@ -3,7 +3,7 @@
 #include <string.h>
 #include "chained_list.h"
 
-#define DEFAULT_FILE "contracts.csv"
+#define DEFAULT_FILE "contracts.bin"
 
 /* ------------------------------------------------------------------ */
 /*  Input helpers                                                       */
@@ -25,7 +25,7 @@ static element read_contract(void)
     flush_stdin();
 
     printf("  PUT(0) or CALL(1): ");
-    scanf("%d", (int*)&e.type);
+    scanf("%d", (int *)&e.type);
     flush_stdin();
 
     printf("  Quantity         : ");
